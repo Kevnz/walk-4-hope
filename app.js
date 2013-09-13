@@ -1,6 +1,7 @@
 var express = require('express'),
     exphbs  = require('express3-handlebars'),
     routes = require('./routes'),
+    contact = require('./routes/contact'),
     http = require('http'),
     path = require('path'),
     app = express(),
@@ -28,8 +29,8 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-
+app.get('/contact', contact.index);
+app.post('/contact', contact.post);
 http.createServer(app).listen(app.get('port'), function(){
     console.log("Express server listening on port " + app.get('port') + " in " + app.get('env') +" mode");
 });
-

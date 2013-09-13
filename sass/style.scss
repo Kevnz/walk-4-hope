@@ -59,7 +59,11 @@ h1,h2,h3,h4,h5,h6 {
         background: #222;
     }
 }
-
+.splash {
+    margin: 2em auto 0;
+    padding: 3em 0.5em;
+    background: #eee;
+}
 @media (max-width: 767px) {
     #headerMenu {
         position: relative;

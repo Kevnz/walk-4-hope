@@ -74,21 +74,28 @@ h1, h2, h3, h4, h5, h6 {
   background: #222;
 }
 
+/* line 62, ../../sass/style.scss */
+.splash {
+  margin: 2em auto 0;
+  padding: 3em 0.5em;
+  background: #eee;
+}
+
 @media (max-width: 767px) {
-  /* line 64, ../../sass/style.scss */
+  /* line 68, ../../sass/style.scss */
   #headerMenu {
     position: relative;
   }
-  /* line 66, ../../sass/style.scss */
+  /* line 70, ../../sass/style.scss */
   #headerMenu ul {
     text-align: center;
   }
-  /* line 69, ../../sass/style.scss */
+  /* line 73, ../../sass/style.scss */
   #headerMenu a {
     font-size: 80%;
   }
 
-  /* line 73, ../../sass/style.scss */
+  /* line 77, ../../sass/style.scss */
   .content {
     width: 95%;
   }
